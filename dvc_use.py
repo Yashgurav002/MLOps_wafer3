@@ -13,5 +13,4 @@ for data_dir in data_dirs:
     for filePath in files:
         # print(f"dvc add {filePath}")
         os.system(f"dvc add {filePath}")
-
 print("\n #### all files added to dvc ####")
